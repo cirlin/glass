@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html>
+<head>
+<link href="style.css" type=text/css rel=stylesheet>
+<script language="JavaScript" type="text/javascript" src="serv.js"></script>
+</head> 
+<body>
+<div id="mains">
+<img class='left' src='img/s0.png'>
+<script language='JavaScript'>
+for(var i=0;i<15;i++)
+{
+wrimg('left pont','s'+(i+1));
+if(serv[i])document.write('<ul id="u'+i+'" onclick="unvision(this);parent.seth()">'+serv[i]+'</ul>')
+}
+if(parent.c)vision(document.images[parent.c])
+</script> 
+</div>
+</body>
+</html>
+ 
