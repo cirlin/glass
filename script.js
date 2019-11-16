@@ -77,12 +77,12 @@ var H=o.height;
 if(!isNaN(parseInt(img.id)))
 {
 o=document.images['left'];
-o.title="предыдущее изображение";
+o.title="РїСЂРµРґС‹РґСѓС‰РµРµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ";
 o.style.top=t+'px';
 o.style.display='block';
 o.style.zIndex=4;
 o=document.images['right'];
-o.title="следующее изображение";
+o.title="СЃР»РµРґСѓСЋС‰РµРµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ";
 o.style.left=w-30+'px';
 o.style.top=t+'px';
 o.style.display='block';

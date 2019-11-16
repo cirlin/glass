@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /gallery
+Disallow: /katalog
+Disallow: /kontact
+Disallow: /logo
+Disallow: /service
+
